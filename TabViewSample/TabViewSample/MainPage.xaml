@@ -6,8 +6,7 @@
     xmlns:views1="clr-namespace:TabViewSample.Views;assembly=TabViewSample"
     xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
     BindingContext="{Binding MainViewModel, Source={StaticResource Locator}}">
-
-
+    <!--  if delete BindingContext into this MainPage, the binding work into LazyView otherwise don't work  -->
     <Grid>
         <xct:TabView
             TabStripBackgroundColor="Blue"
@@ -21,6 +20,4 @@
             </xct:TabViewItem>
         </xct:TabView>
     </Grid>
-
-
 </ContentPage>

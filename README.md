@@ -1,6 +1,6 @@
 # TabViewSampleError
 
-Binding error on views inside a TabView if the TabView page itself has a Binding defined
+Binding error on views inside a TabViewItem if the TabView page itself has a Binding defined
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
